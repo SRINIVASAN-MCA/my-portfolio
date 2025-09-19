@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SRINIVASAN-MCA/my-portfolio/static/css/main.a22e1c60.css",
+    "main.js": "/SRINIVASAN-MCA/my-portfolio/static/js/main.34cb4b8d.js",
+    "static/js/453.438d9e50.chunk.js": "/SRINIVASAN-MCA/my-portfolio/static/js/453.438d9e50.chunk.js",
+    "index.html": "/SRINIVASAN-MCA/my-portfolio/index.html",
+    "main.a22e1c60.css.map": "/SRINIVASAN-MCA/my-portfolio/static/css/main.a22e1c60.css.map",
+    "main.34cb4b8d.js.map": "/SRINIVASAN-MCA/my-portfolio/static/js/main.34cb4b8d.js.map",
+    "453.438d9e50.chunk.js.map": "/SRINIVASAN-MCA/my-portfolio/static/js/453.438d9e50.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a22e1c60.css",
+    "static/js/main.34cb4b8d.js"
+  ]
+}
