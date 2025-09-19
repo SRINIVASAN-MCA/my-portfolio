@@ -13,32 +13,62 @@ export default function Navbar() {
   }, [darkMode]);
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white px-8 py-4 flex justify-between items-center shadow-md z-50 transition-colors duration-300">
+    <nav className="fixed top-0 left-0 w-full bg-black/10 backdrop-blur-lg text-white px-8 py-4 flex justify-between items-center border-b border-white/10 z-50 transition-all duration-300">
       {/* Left side logo */}
-      <h1 className="text-2xl font-bold tracking-wide">My Portfolio</h1>
+      <div className="flex items-center space-x-3">
+        <div className="w-8 h-8 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center">
+          <span className="text-white font-bold text-sm">SV</span>
+        </div>
+        <h1 className="text-xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+          Srinivasan V
+        </h1>
+      </div>
 
       {/* Right side nav links */}
-      <ul className="hidden md:flex gap-8 font-medium bg-blue-200 dark:bg-blue-600 text-gray-900 dark:text-white px-6 py-2 rounded-lg shadow transition-colors duration-300">
+      <ul className="hidden md:flex gap-1 font-medium bg-white/5 backdrop-blur-lg px-6 py-2 rounded-full border border-white/10 text-sm">
         <li>
-          <a href="#home" className="hover:text-blue-600 dark:hover:text-blue-300">Home</a>
+          <a href="#home" className="px-4 py-2 rounded-full hover:bg-purple-500/20 hover:text-purple-400 transition-all duration-300">
+            Home
+          </a>
         </li>
         <li>
-          <a href="#about" className="hover:text-blue-600 dark:hover:text-blue-300">About</a>
+          <a href="#about" className="px-4 py-2 rounded-full hover:bg-purple-500/20 hover:text-purple-400 transition-all duration-300">
+            About
+          </a>
         </li>
         <li>
-          <a href="#projects" className="hover:text-blue-600 dark:hover:text-blue-300">Projects</a>
+          <a href="#experience" className="px-4 py-2 rounded-full hover:bg-purple-500/20 hover:text-purple-400 transition-all duration-300">
+            Experience
+          </a>
         </li>
         <li>
-          <a href="#contact" className="hover:text-blue-600 dark:hover:text-blue-300">Contact</a>
+          <a href="#skills" className="px-4 py-2 rounded-full hover:bg-purple-500/20 hover:text-purple-400 transition-all duration-300">
+            Skills
+          </a>
+        </li>
+        <li>
+          <a href="#projects" className="px-4 py-2 rounded-full hover:bg-purple-500/20 hover:text-purple-400 transition-all duration-300">
+            Projects
+          </a>
+        </li>
+        <li>
+          <a href="#education" className="px-4 py-2 rounded-full hover:bg-purple-500/20 hover:text-purple-400 transition-all duration-300">
+            Education
+          </a>
+        </li>
+        <li>
+          <a href="#contact" className="px-4 py-2 rounded-full hover:bg-purple-500/20 hover:text-purple-400 transition-all duration-300">
+            Contact
+          </a>
         </li>
       </ul>
 
-      {/* Toggle button */}
+      {/* Theme toggle button */}
       <button
         onClick={() => setDarkMode(!darkMode)}
-        className="ml-4 px-4 py-2 rounded-lg border border-gray-400 dark:border-gray-600 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-300"
+        className="ml-4 p-3 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-purple-500/25"
       >
-        {darkMode ? "🌙 Dark" : "☀️ Light"}
+        <span className="text-white text-sm">{darkMode ? "🌙" : "☀️"}</span>
       </button>
     </nav>
   );
