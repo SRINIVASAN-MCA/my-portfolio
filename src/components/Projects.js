@@ -120,14 +120,14 @@ export default function Projects() {
                 </div>
                 
                 {/* Action buttons */}
-                <div className="flex gap-4">
+                {/* <div className="flex gap-4">
                   <button className={`flex-1 py-3 px-6 bg-gradient-to-r ${project.gradient} rounded-xl text-white font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300`}>
                     View Details
                   </button>
                   <button className="px-6 py-3 border-2 border-purple-400 rounded-xl text-purple-400 hover:bg-purple-400 hover:text-white transition-all duration-300 font-semibold">
                     Demo
                   </button>
-                </div>
+                </div> */}
               </div>
               
               {/* Hover effect overlay */}

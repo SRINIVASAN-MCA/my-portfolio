@@ -27,10 +27,10 @@ export default function Contact() {
   ];
 
   const socialLinks = [
-    { icon: "💼", name: "LinkedIn", url: "#", color: "from-blue-500 to-blue-600" },
-    { icon: "🐙", name: "GitHub", url: "#", color: "from-gray-700 to-gray-800" },
+    { icon: "💼", name: "LinkedIn", url: "https://www.linkedin.com/in/srinivasan-v-a5b694341/", color: "from-blue-500 to-blue-600" },
+    { icon: "🐙", name: "GitHub", url: "https://github.com/SRINIVASAN-MCA", color: "from-gray-700 to-gray-800" },
     { icon: "🐦", name: "Twitter", url: "#", color: "from-sky-400 to-sky-500" },
-    { icon: "📘", name: "Portfolio", url: "#", color: "from-purple-500 to-pink-500" }
+    { icon: "📘", name: "Portfolio", url: "https://srinivasan-mca.github.io/my-portfolio/", color: "from-purple-500 to-pink-500" }
   ];
 
   return (

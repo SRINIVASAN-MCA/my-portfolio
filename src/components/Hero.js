@@ -41,11 +41,11 @@ export default function Hero() {
         
         {/* Action buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a
-            href="#projects"
+           <a
+            href="/SRINIVASAN_V.pdf" download
             className="px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl font-semibold text-white shadow-lg hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105"
           >
-            View Projects
+            Download Resume
           </a>
           <a
             href="#contact"

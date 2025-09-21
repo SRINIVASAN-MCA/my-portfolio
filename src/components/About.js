@@ -1,3 +1,5 @@
+import logo from '../img/SRINI.jpg';
+
 export default function About() {
   return (
     <section
@@ -22,7 +24,8 @@ export default function About() {
             <div className="md:col-span-1 flex justify-center">
               <div className="w-48 h-48 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center shadow-xl">
                 <div className="w-44 h-44 bg-white/10 backdrop-blur-lg rounded-full flex items-center justify-center">
-                  <span className="text-6xl font-bold text-white">SV</span>
+                  {/* <span className="text-6xl font-bold text-white">SV</span> */}
+                   <img src={logo} alt="Srini" className="w-44 h-44 rounded-full object-cover" />
                 </div>
               </div>
             </div>

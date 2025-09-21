@@ -4,13 +4,13 @@ export default function Skills() {
       title: "Languages & Frameworks",
       icon: "⚡",
       gradient: "from-purple-500 to-pink-500",
-      skills: ["PHP", "Laravel", "Python", "Django", ".NET", "JavaScript", "React JS", "Vue JS"]
+      skills: ["PHP", "Laravel", "Python", "Django", "JavaScript", "React JS", "Vue JS"]
     },
     {
       title: "Frontend Technologies",
       icon: "🎨",
       gradient: "from-pink-500 to-rose-500",
-      skills: ["HTML", "CSS", "Tailwind CSS", "Material UI", "Bootstrap", "Blade"]
+      skills: ["HTML", "CSS", "Tailwind CSS", "Material UI", "Bootstrap"]
     },
     {
       title: "Database & Storage",
@@ -22,7 +22,7 @@ export default function Skills() {
       title: "Tools & Integration",
       icon: "🛠️",
       gradient: "from-green-500 to-emerald-500",
-      skills: ["Git", "API Integration", "WampServer", "Blade Templates", "REST APIs"]
+      skills: ["GitHub", "Postman", "VS Code"]
     }
   ];
 
@@ -106,7 +106,7 @@ export default function Skills() {
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="text-center">
             <div className="text-3xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-2">
-              25+
+              20+
             </div>
             <div className="text-gray-300 text-sm">Technologies</div>
           </div>
@@ -118,7 +118,7 @@ export default function Skills() {
           </div>
           <div className="text-center">
             <div className="text-3xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent mb-2">
-              15+
+              10+
             </div>
             <div className="text-gray-300 text-sm">Projects</div>
           </div>

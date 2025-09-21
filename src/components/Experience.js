@@ -1,30 +1,30 @@
 export default function Experience() {
   const experiences = [
     {
-      title: "PHP Laravel Developer",
+      title: "Travels2020",
       company: "Artictern Consulting Service Pvt Ltd",
       location: "Chennai",
       duration: "Jan 2025 - Present",
-      description: "Working on PHP, Laravel, Blade, MySQL, Bootstrap, JavaScript, HTML",
+      description: "Working on PHP, Laravel, MySQL, Bootstrap, JavaScript, HTML",
       website: "https://www.travels2020.com/",
-      technologies: ["PHP", "Laravel", "Blade", "MySQL", "Bootstrap", "JavaScript", "HTML"],
+      technologies: ["PHP", "Laravel", "MySQL", "Bootstrap", "JavaScript", "HTML"],
       status: "current"
     },
     {
-      title: "Laravel Developer",
+      title: "Indiansteelcompany",
       company: "Eagleminds Technologies Pvt Ltd",
       location: "Tirupattur",
-      duration: "Oct 2023 - Jan 2025",
-      description: "Worked on PHP, Laravel, Blade, MySQL, Tailwind CSS, Vue JS. Contributed to scalable web applications and integrated REST APIs.",
+      duration: "Jun 2024 - Jan 2025",
+      description: "Worked on PHP, Laravel, MySQL, Tailwind CSS, Vue JS. Contributed to scalable web applications and integrated REST APIs.",
       website: "https://www.indiansteelcompany.in/",
-      technologies: ["PHP", "Laravel", "Blade", "MySQL", "Tailwind CSS", "Vue JS", "REST APIs"],
+      technologies: ["PHP", "Laravel", "MySQL", "Tailwind CSS", "Vue JS"],
       status: "previous"
     },
     {
-      title: "Frontend Developer (React JS)",
-      company: "Billing Software Project",
-      location: "Remote",
-      duration: "2023",
+      title: " Billing Software ",
+      company: "Eagleminds Technologies Pvt Ltd",
+      location: "Tirupattur",
+      duration: "Dec 2023 - May 2024",
       description: "Developed responsive websites and optimized front-end performance for billing software.",
       technologies: ["HTML", "React JS", "Tailwind CSS", "Material MUI"],
       status: "project"
