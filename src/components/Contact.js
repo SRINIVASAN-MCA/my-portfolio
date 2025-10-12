@@ -145,7 +145,7 @@ export default function Contact() {
                 {socialLinks.map((social, index) => (
                   <a
                     key={index}
-                    href={social.url}
+                    href={social.url} target="_blank"
                     className="group flex items-center justify-center p-4 bg-white/5 rounded-xl border border-white/10 hover:border-purple-500/50 transition-all duration-300 transform hover:scale-105"
                   >
                     <span className="text-2xl mr-3">{social.icon}</span>

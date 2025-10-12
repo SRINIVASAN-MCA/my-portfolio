@@ -213,3 +213,8 @@ html {
     transform: rotate(360deg);
   }
 }
+
+.gradient-bg {
+  background-image: linear-gradient(to bottom left, #8b5cf6, #d946ef);
+  color: white;
+}

@@ -1,3 +1,6 @@
+import React from "react";
+import resume from "../img/SRINIVASAN_V.pdf";
+
 export default function Hero() {
   return (
     <section
@@ -42,11 +45,27 @@ export default function Hero() {
         {/* Action buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
            <a
-            href="/SRINIVASAN_V.pdf" download
-            className="px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl font-semibold text-white shadow-lg hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105"
-          >
-            Download Resume
-          </a>
+              href={resume}
+              download="SRINIVASAN_V.pdf"
+              className="px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl font-semibold text-white shadow-lg hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
+            >
+              {/* Download Icon (optional using Heroicons or Lucide) */}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={2}
+                stroke="currentColor"
+                className="w-5 h-5"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M12 16.5v-9m0 9 3.75-3.75M12 16.5 8.25 12.75M4.5 19.5h15"
+                />
+              </svg>
+              Download Resume
+            </a>
           <a
             href="#contact"
             className="px-8 py-4 bg-transparent border-2 border-purple-400 rounded-xl font-semibold text-purple-400 hover:bg-purple-400 hover:text-white transition-all duration-300 transform hover:scale-105"
