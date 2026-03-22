@@ -10,16 +10,7 @@ export default function Experience() {
       technologies: ["PHP", "Laravel", "MySQL", "Bootstrap", "JavaScript", "HTML"],
       status: "current"
     },
-    {
-      title: "Sweetdreamholiday",
-      company: "Free Lanching",
-      location: "Chennai",
-      duration: "Jun 2024 - Jan 2025",
-      description: "Worked on React js,  Tailwind CSS, html domestic tour packgaes",
-      website: "https://sweetdreamsholidays.github.io/sdh/",
-      technologies: ["Rect js", "MySQL", "Tailwind CSS", "HTML"],
-      status: "previous"
-    },
+  
     {
       title: "Travels2020",
       company: "Artictern Consulting Service Pvt Ltd",
@@ -29,6 +20,16 @@ export default function Experience() {
       website: "https://www.travels2020.com/",
       technologies: ["PHP", "Laravel", "MySQL", "Bootstrap", "JavaScript", "HTML"],
       status: "current"
+    },
+      {
+      title: "Sweetdreamholiday",
+      company: "Free Lanching",
+      location: "Chennai",
+      duration: "",
+      description: "Worked on React js,  Tailwind CSS, html domestic tour packgaes",
+      website: "https://sweetdreamsholidays.github.io/sdh/",
+      technologies: ["Rect js", "MySQL", "Tailwind CSS", "HTML"],
+      status: "previous"
     },
     {
       title: "Indiansteelcompany",
