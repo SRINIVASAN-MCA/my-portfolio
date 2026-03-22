@@ -1,6 +1,26 @@
 export default function Experience() {
   const experiences = [
     {
+      title: "2020Homes",
+      company: "Artictern Consulting Service Pvt Ltd",
+      location: "Chennai",
+      duration: "Jan 2025 - Present",
+      description: "Working on PHP, Laravel, MySQL, Bootstrap, JavaScript, HTML",
+      website: "https://www.2020homes.in/",
+      technologies: ["PHP", "Laravel", "MySQL", "Bootstrap", "JavaScript", "HTML"],
+      status: "current"
+    },
+    {
+      title: "Sweetdreamholiday",
+      company: "Free Lanching",
+      location: "Chennai",
+      duration: "Jun 2024 - Jan 2025",
+      description: "Worked on React js,  Tailwind CSS, html domestic tour packgaes",
+      website: "https://sweetdreamsholidays.github.io/sdh/",
+      technologies: ["Rect js", "MySQL", "Tailwind CSS", "HTML"],
+      status: "previous"
+    },
+    {
       title: "Travels2020",
       company: "Artictern Consulting Service Pvt Ltd",
       location: "Chennai",

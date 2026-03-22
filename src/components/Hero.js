@@ -35,7 +35,7 @@ export default function Hero() {
         
         {/* Tech stack quick preview */}
         <div className="flex flex-wrap justify-center gap-3 mb-10">
-          {['PHP', 'Laravel', 'Python', 'React', 'Vue.js', 'MySQL'].map((tech, index) => (
+          {['PHP', 'Laravel',  'React', 'Vue.js', 'MySQL', 'Python'].map((tech, index) => (
             <span key={index} className="px-4 py-2 bg-gradient-to-r from-purple-600/30 to-pink-600/30 rounded-full text-sm font-medium border border-purple-400/30">
               {tech}
             </span>
